@@ -1,0 +1,58 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login label {
+    width: 100%;
+}
+
+.inputText-label {
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+    font-weight: bolder;
+}
+
+.inputText {
+    background-color: #151d28;
+    border: 1px rgb(112, 112, 112) solid;
+    border-radius: 5px;
+    height: 40px;
+    width: 40%;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.card .majorEdat {
+    position: relative;
+    left: 16%;
+    display: block;
+    width: 50%;
+}
+
+.majorEdat input {
+    accent-color: #fbad31;
+}
+
+.boto {
+    background-color: #ffc25f;
+    color: black;
+    height: 50px;
+    width: 150px;
+    font-size: xx-large;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.boto:hover {
+    background-color: #fbad31;
+    cursor: pointer;
+    font-weight: bolder;
+}

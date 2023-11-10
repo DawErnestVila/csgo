@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CS:GO</title>
+    <link rel="icon" href="../Imatges/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../CSS/navBars.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../CSS/footer.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../CSS/formulari.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../CSS/body.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../CSS/cards.css" media="all">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Josefin+Sans:wght@600&family=Oswald:wght@700&family=Teko:wght@700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <nav id="navBar" class="navBar">
+        <a href="index.html" class="navBarElement"><img src="../Imatges/LogoEstiratOrange.png" alt="LogoCSGO"
+                class="logo"></a>
+        <a href="modesdejoc.html" class="navBarElement">Modes de Joc</a>
+        <a href="funcionament.html" class="navBarElement">Funcionament</a>
+        <a href="register.html" class="navBarElement">Register</a>
+    </nav>
+    <header>
+        <h1 class="mainTitle">Log-In</h1>
+    </header>
+    <section>
+        <article class="card">
+            <form action="indexLogin.html" method="GET" class="login">
+                <label for="user" class="inputText-label">
+                    Usuari
+                    <input name="user" type="text" id="user" class="inputText" placeholder="Escriu l'usuari" required
+                        autofocus>
+                </label>
+                <label for="passwrd" class="inputText-label passwrd">
+                    Contrasenya
+                    <input name="password" type="password" id="passwrd" class="inputText passwrd"
+                        placeholder="Escriu la contrasenya" required>
+                </label>
+                <button class="boto">Log-In</button>
+            </form>
+        </article>
+    </section>
+    <footer>
+        <small>&copy;Ernest Vilà Casas</small>
+        <small><a href="#navBar" class="goToTop"><img src="..//Imatges/chevron-arriba-blanco.png" alt="FletxaAmunt"
+                    class="goToTop"> Go to the top</a></small>
+    </footer>
+</body>
+
+</html>

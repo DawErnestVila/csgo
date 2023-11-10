@@ -1,0 +1,40 @@
+.rangs-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0px 10px;
+}
+
+.rang:nth-of-type(1),
+.rang:nth-of-type(2),
+.rang:nth-of-type(3),
+.rang:nth-of-type(4),
+.rang:nth-of-type(5) {
+    border-top: 1px solid white;
+}
+
+.rangDZ:nth-of-type(16),
+.rangDZ:nth-of-type(18),
+.rangDZ:nth-of-type(20) {
+    border-bottom: 0;
+}
+
+.rang {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.rang h5 {
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+.dangerZone .rang {
+    padding-top: 20px;
+    margin-top: 10px;
+}

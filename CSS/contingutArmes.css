@@ -1,0 +1,80 @@
+.armes-grid {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.arma {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    border-width: 1px;
+    border-bottom: 1px solid white;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.armes-grid :last-of-type {
+    border-bottom: 0;
+}
+
+.foto-arma img {
+    position: relative;
+    width: 60%;
+    bottom: 10%;
+}
+
+.zeus .foto-arma img {
+    position: relative;
+    width: 60%;
+    bottom: 0%;
+}
+
+.text-arma {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: flex-end;
+}
+
+.nomArma {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.linia-text-arma {
+    padding: 5px;
+    border: #b3b3b3 solid;
+    background-color: #c0b49c;
+    color: #000000;
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+    bottom: 15%;
+}
+
+.duesLinies .linia-text-arma {
+    position: relative;
+    bottom: 30%;
+}
+
+.zeus .text-arma .linia-text-arma {
+    padding: 5px;
+    border: #b3b3b3 solid;
+    background-color: #c0b49c;
+    color: #000000;
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+    bottom: 15%;
+}
+
+.bodyContainer {
+    display: grid;
+    grid-template-columns: 85% 10%;
+}
+
+.armesContainer {
+    margin-left: 0;
+}

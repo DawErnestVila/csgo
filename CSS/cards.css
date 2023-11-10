@@ -1,0 +1,69 @@
+.card {
+    margin: auto;
+    margin-bottom: 70px;
+    padding: 10px;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(1rem);
+    color: white;
+    border-radius: 25px;
+    line-height: 2em;
+    font-family: Fragment Mono, Arial;
+}
+
+.card b.CSGO {
+    font-size: 120%;
+}
+
+.card a {
+    text-decoration: none;
+    color: #00ffff;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.card a:visited {
+    color: #00b9b9
+}
+
+.card table {
+    width: 100%;
+}
+
+.fakeCard {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 300px;
+    height: 60px;
+    background-color: rgba(9, 255, 0, 0.267);
+    backdrop-filter: blur(1rem);
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    font-family: Fragment Mono, Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-small;
+}
+
+.fakeCard h2 {
+    position: relative;
+    bottom: 5px;
+}
+
+.closeButton {
+    height: 12px;
+    border-radius: 2px;
+}
+
+.closeButton:hover {
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+.closeAnchor {
+    margin-left: 90%;
+}

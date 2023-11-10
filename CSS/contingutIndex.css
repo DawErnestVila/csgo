@@ -1,0 +1,28 @@
+iframe {
+    border-radius: 25px;
+    width: 100%;
+    height: 100vh;
+    border: 0;
+}
+
+.trailer {
+    padding-bottom: 0px;
+}
+
+tbody div {
+    text-align: center;
+}
+
+p.classificacions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.filaBuida {
+    height: 2em;
+}
+
+.imgClassificacio {
+    height: 20%;
+    width: 20%;
+}
